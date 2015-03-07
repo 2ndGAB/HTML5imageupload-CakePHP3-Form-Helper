@@ -1,0 +1,22 @@
+{
+	"name": "cabb/html5imageupload-helper",
+	"description": "Html5ImageUpload Input Helper for CakePHP 3.0",
+	"keywords": ["CakePHP", "Html5ImageUpload"],
+	"license": "proprietary",
+	"type": "cakephp-plugin",
+	"require-dev": {
+		"cakephp/cakephp": "3.0.x-dev"
+	},
+	"require": {
+		"composer/installers": "1.*",
+		"holt59/cakephp3-bootstrap3-helpers": "1.*"
+	},
+	"autoload": {
+		"psr-4": {
+ 			"Html5imageupload\\": "src"
+		}
+	},
+	"extra": {
+		"installer-name": "Html5imageupload"
+	}
+}
