@@ -1,9 +1,6 @@
 # HTML5imageupload-CakePHP3-Form-Helper
 This plugin provides a Form input Helper for HTML5imageupload javascript module
 
-CakePHP 3.x Helper for Html5imageupload
-=======================================
-
 CakePHP 3.0 Helper to generate HTML input for the HTML5ImageUpload javascript <http://codecanyon.net/item/html-5-upload-image-ratio-with-drag-and-drop/8712634>
 
 This plugin is designed to work with the Bootstrap3 Form Helper <https://github.com/Holt59/cakephp3-bootstrap3-helpers>
