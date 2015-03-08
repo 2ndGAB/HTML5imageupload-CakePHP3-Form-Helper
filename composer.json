@@ -8,7 +8,6 @@
 		"cakephp/cakephp": "3.0.x-dev"
 	},
 	"require": {
-		"composer/installers": "1.*",
 		"holt59/cakephp3-bootstrap3-helpers": "1.*"
 	},
 	"autoload": {
