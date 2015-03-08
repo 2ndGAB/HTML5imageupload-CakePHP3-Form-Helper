@@ -1,6 +1,6 @@
 <?php
 /**
- * Html5uploadimage Form Helper
+ * Html5imageupload Form Helper
  *
  * PHP 5
  *
@@ -11,22 +11,22 @@
  * @license http://www.apache.org/licenses/LICENSE-2.0
  */
 
-namespace Html5uploadimage\View\Helper;
+namespace Html5imageupload\View\Helper;
 
 use Cake\View\Helper\FormHelper;
 use Bootstrap3\View\Helper\BootstrapFormHelper;
 
 
-class Html5uploadimageFormHelper extends BootstrapFormHelper {
+class Html5imageuploadFormHelper extends BootstrapFormHelper {
 
 	private $availableOptions =
 	[
-        'data-width',
-        'data-height',
+        	'data-width',
+        	'data-height',
 		'data-url',
-	    'data-ajax',
-        'data-canvas',
-        'data-originalsize',
+	    	'data-ajax',
+        	'data-canvas',
+        	'data-originalsize',
 		'data-ghost',
 		'data-image',
 		'data-removeurl',
@@ -47,7 +47,7 @@ class Html5uploadimageFormHelper extends BootstrapFormHelper {
 	 **/
 	public function input($fieldName, array $options = array()) {
 
-		if ($this->_extractOption('type', $options, false) === 'html5uploadimage') {
+		if ($this->_extractOption('type', $options, false) === 'html5imageupload') {
 
 			$oldTemplates = [
 				'inputContainer' => $this->templates('inputContainer'),
